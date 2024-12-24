@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force UNIX-styled LF line-ending for source files
+*.c eol=lf
+*.s eol=lf
+
+# Mark objects and libraries as binary
+*.o binary
+*.a binary
